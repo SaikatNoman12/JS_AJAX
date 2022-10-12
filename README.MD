@@ -12,6 +12,6 @@ AJAX just uses a combination of, A browser built-in XMLHttpRequest object (to re
 <img src="https://www.w3schools.com/js/pic_ajax.gif">
 
 
-## AJAX 
+## AJAX Topics
 
 1. AJAX Introduction
