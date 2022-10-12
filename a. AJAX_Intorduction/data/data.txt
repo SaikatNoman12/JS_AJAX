@@ -1,0 +1,2 @@
+<h1>Welcome AJAX Data</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque voluptas, placeat non, pariatur delectus maxime quae ea necessitatibus laborum, perspiciatis ab corrupti sequi eius minus facilis iure vel. Cupiditate, nostrum.</p>
