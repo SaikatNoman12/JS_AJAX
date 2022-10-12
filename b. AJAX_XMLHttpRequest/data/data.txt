@@ -1,0 +1,2 @@
+<h1>Yes your AJAX is working</h1>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum labore numquam eligendi, molestias suscipit est voluptas incidunt delectus porro, excepturi eos illum nihil. Magni esse facere excepturi deleniti culpa tenetur?</p>
