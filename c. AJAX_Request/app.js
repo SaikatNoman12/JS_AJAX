@@ -12,7 +12,7 @@ function onLoad(callback) {
     }
 
     // use async js. true means async & false means synchronous;
-    http.open('GET', './data/data.txt', true);
+    http.open('GET', './data/data.txt?t=' + Math.random(), true);
 
     http.send();
 
