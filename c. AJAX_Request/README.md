@@ -6,6 +6,9 @@
 
     open(method, url, async);
 
+    <!-- Get a cached result. To avoid this cached result. And always get updated data -->
+    open(method, url + Math.radom(), async);
+
     abort();
 
     send();
