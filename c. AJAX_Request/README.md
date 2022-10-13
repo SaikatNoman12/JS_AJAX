@@ -18,7 +18,7 @@
 
     setRequestHeader(key, value);
 
-## Important 
+## Important:
 
 ### Get a cached result. To avoid this cached result. And always get updated data.
 
