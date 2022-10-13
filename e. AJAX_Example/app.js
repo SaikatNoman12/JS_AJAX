@@ -13,15 +13,25 @@ function loadData(method, url, postData) {
 
     http.onload = function () {
 
-        const data = this.responseText;
-        console.log(JSON.parse(data));
+        if (this.status >= 400) {
+            console.log('Sorry server is down. Application is not working!');
+        }
+        else {
+            const data = this.responseText;
+            console.log(JSON.parse(data));
+        }
+
+    }
+
+    http.onerror = function () {
+
+        console.log('Your net work connection is lost!');
 
     }
 
     http.open(method, url + '?t=' + Math.random(), true);
 
     http.send(postData);
-
 
 }
 
@@ -41,7 +51,7 @@ function postData() {
         title: 'Abu',
         body: 'Ahmed',
         userId: 1,
-    }
+    };
 
     loadData('POST', 'https://jsonplaceholder.typicode.com/posts', JSON.stringify(postData));
 
@@ -77,7 +87,7 @@ function loadData2(method, url, post) {
 
             // error handle;
             if (this.status >= 400) {
-                resolve(`Sorry Your application problem. ${this.status}`)
+                resolve(`Sorry Your application problem. ${this.status}`);
             }
             else {
                 resolve(this.response);
@@ -94,7 +104,7 @@ function loadData2(method, url, post) {
 
         http.responseType = 'json';
 
-        http.send(post)
+        http.send(post);
 
     });
 
@@ -125,7 +135,7 @@ function postData2() {
         title: 'foo',
         body: 'bar',
         userId: 1,
-    }
+    };
 
     // load data2
     loadData2('POST', 'https://jsonplaceholder.typicode.com/posts',
@@ -134,9 +144,7 @@ function postData2() {
             console.log(responseData);
         })
         .catch((err) => {
-
             console.log(err);
-
         });
 }
 
