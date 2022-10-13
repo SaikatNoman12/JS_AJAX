@@ -1,0 +1,4 @@
+<h1>Your Server Is Working</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis quae, voluptatem minus eius architecto laboriosam
+voluptatibus voluptatum iusto esse neque ullam ipsa illum repellat molestias fugit nulla tempore voluptates
+quisquam!</p>
