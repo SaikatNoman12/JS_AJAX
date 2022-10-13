@@ -15,3 +15,11 @@ AJAX just uses a combination of, A browser built-in XMLHttpRequest object (to re
 ## AJAX Topics
 
 1. AJAX Introduction
+
+2. AJAX XMLHttpRequest
+
+3. AJAX Request
+
+4. AJAX Response
+
+5. AJAX Example
